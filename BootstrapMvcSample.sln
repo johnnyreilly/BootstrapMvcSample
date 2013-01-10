@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapMvcSample", "BootstrapMvcSample\BootstrapMvcSample.csproj", "{D31F213A-6A1F-44F0-9B8D-305B5930BE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapMvcSample.Tests", "BootstrapMvcSample.Tests\BootstrapMvcSample.Tests.csproj", "{451AEFEC-8B52-4FC3-B16F-EAD781069ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31F213A-6A1F-44F0-9B8D-305B5930BE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31F213A-6A1F-44F0-9B8D-305B5930BE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31F213A-6A1F-44F0-9B8D-305B5930BE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31F213A-6A1F-44F0-9B8D-305B5930BE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451AEFEC-8B52-4FC3-B16F-EAD781069ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451AEFEC-8B52-4FC3-B16F-EAD781069ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451AEFEC-8B52-4FC3-B16F-EAD781069ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451AEFEC-8B52-4FC3-B16F-EAD781069ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

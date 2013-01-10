@@ -1,0 +1,8 @@
+This is a repository which allows me to play with Twitter.Bootstrap.MVC4 to my hearts content.
+
+Initial experiments have revolved around adding in the Bootstrap Datepicker.  You can read about that here: http://icanmakethiswork.blogspot.co.uk/2013/01/twitterbootstrapmvc4-meet-bootstrap.html
+
+This so far depends on the following:
+
+http://nuget.org/packages/twitter.bootstrap.mvc4
+http://www.eyecon.ro/bootstrap-datepicker/
