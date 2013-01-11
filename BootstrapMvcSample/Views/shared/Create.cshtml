@@ -27,6 +27,18 @@
 
 @section Scripts {
 <script type="text/javascript">
-    $('.datepicker').datepicker(); //Initialise any date pickers
+
+    var currentCulture = $("meta[name='accept-language']").prop("content"),
+        language;
+
+    // Set Globalize to the current culture driven by the meta tag (if any)
+    if (currentCulture) {
+        language = (currentCulture in $.fn.datepicker.dates)
+            ? currentCulture //a language exists which looks like "zh-CN" so we'll use it
+            : currentCulture.split("-")[0]; //we'll try for a language that looks like "de" and use it if it exists (otherwise it will fall back to the default)
+    }
+
+    //Initialise any date pickers
+    $('.datepicker').datepicker({ language: language });  
 </script>
 }
