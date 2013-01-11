@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <title>@ViewBag.Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        @Html.MetaAcceptLanguage()
         <link href="@Styles.Url("~/content/css")" rel="stylesheet"/>
         <style type="text/css">
           body {
@@ -45,7 +46,10 @@
                 <p>&copy; Company @System.DateTime.Now.ToString("yyyy")</p>
             </footer> 
         </div>
-         @Scripts.Render("~/js")
+         @Scripts.Render(
+             "~/js", 
+             Html.JsCultureBundle()
+         )
          @RenderSection("Scripts", required: false)
     </body>
 </html>
