@@ -4,5 +4,7 @@ Initial experiments have revolved around adding in the Bootstrap Datepicker.  Yo
 
 This so far depends on the following:
 
-http://nuget.org/packages/twitter.bootstrap.mvc4
-http://www.eyecon.ro/bootstrap-datepicker/
+* http://nuget.org/packages/twitter.bootstrap.mvc4
+* https://github.com/eternicode/bootstrap-datepicker
+* https://github.com/jquery/globalize
+* https://gist.github.com/3651751
