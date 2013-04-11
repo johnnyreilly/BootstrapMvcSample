@@ -16,6 +16,10 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -505,10 +509,11 @@
     <Content Include="scripts\globalize-cultures\globalize.cultures.js" />
     <Content Include="scripts\globalize.js" />
     <Content Include="scripts\html5shiv.js" />
-    <Content Include="scripts\jquery-1.8.3-vsdoc.js" />
-    <Content Include="scripts\jquery-1.8.3.js" />
-    <Content Include="scripts\jquery-1.8.3.min.js" />
-    <Content Include="scripts\jquery.validate-vsdoc.js" />
+    <None Include="scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="scripts\jquery-1.9.0.js" />
+    <Content Include="scripts\jquery-1.9.0.min.js" />
+    <None Include="scripts\jquery.validate-vsdoc.js" />
+    <Content Include="scripts\jquery-migrate-1.0.0.js" />
     <Content Include="scripts\jquery.validate.globalize.js" />
     <Content Include="scripts\jquery.validate.js" />
     <Content Include="scripts\jquery.validate.min.js" />
